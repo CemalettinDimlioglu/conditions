@@ -73,4 +73,8 @@
 //      console.log("FF");
 // }
 
+// Ternary 2 şık varsa
 
+const not =+prompt("rakam")
+
+not >=50 ? console.log("gecti") : console.log("kaldi");
