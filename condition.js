@@ -45,6 +45,6 @@ const sonuc = yas >= 18 && saglik === true && sinav >= 70;
 
 
 
-// sonuc && console.log(`${sonuc}  basarılı`);
+sonuc && console.log(`${sonuc}  basarılı`);
 
-sonuc || console.log(`${sonuc}  basarısız`);
+// sonuc || console.log(`${sonuc}  basarısız`);
