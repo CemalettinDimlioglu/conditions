@@ -19,12 +19,25 @@
 //      console.log("tünaydın");
 // }
 
-const sayi = 20202033
+// const sayi = 20202033
 
-if (sayi % 2 ===0){
-     console.log(`${sayi}:çift sayidir`);
+// if (sayi % 2 ===0){
+//      console.log(`${sayi}:çift sayidir`);
+// }else{
+//      console.log(`${sayi}:tek sayidir`);
+
+// }
+
+const yas = Number(prompt("enter your age"));
+const saglik = confirm("saglik raporun var mı");
+const sinav = +prompt("sınav puanınız")
+
+const sonuc = yas >= 18 && saglik === true && sinav >= 70;
+
+if (sonuc){
+     console.log(`${sonuc}  basarılı`);
 }else{
-     console.log(`${sayi}:tek sayidir`);
+     console.log(`${sonuc}  basarısız`);
 
 }
 
