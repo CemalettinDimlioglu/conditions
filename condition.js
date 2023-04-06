@@ -75,9 +75,19 @@
 
 // Ternary 2 şık varsa
 
-const not =+prompt("rakam")
+// const not =+prompt("rakam")
 
-// not >=50 ? console.log("gecti") : console.log("kaldi");
-const sonuc = not>= 50 ? "gecti": "kaldı";
-alert(sonuc)
+// // not >=50 ? console.log("gecti") : console.log("kaldi");
+// const sonuc = not>= 50 ? "gecti": "kaldı";
+// alert(sonuc)
+// console.log(sonuc);
+
+const yas = Number(prompt("enter your age"));
+const saglik = confirm("saglik raporun var mı");
+const sinav = +prompt("sınav puanınız")
+
+const sonuc =
+yas >= 18 && saglik === true && sinav >= 70 && "basarılı";
+
 console.log(sonuc);
+ 
