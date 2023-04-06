@@ -93,9 +93,9 @@
 
 //  
 
-const number = 55
+const number = 7
 switch (number) {
-     case 3:
+     case "3":
          console.log("case1"); 
           break;
      case 5:
@@ -109,3 +109,6 @@ switch (number) {
           console.log("yanlıs numara");
           break;
 }
+
+
+// switch yapısı ===  e dikkat edrr tam eşit olmazsa olmaz daha uzun yapılar için kullanılır
