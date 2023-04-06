@@ -77,4 +77,7 @@
 
 const not =+prompt("rakam")
 
-not >=50 ? console.log("gecti") : console.log("kaldi");
+// not >=50 ? console.log("gecti") : console.log("kaldi");
+const sonuc = not>= 50 ? "gecti": "kaldı";
+alert(sonuc)
+console.log(sonuc);
