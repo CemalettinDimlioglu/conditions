@@ -82,12 +82,14 @@
 // alert(sonuc)
 // console.log(sonuc);
 
+
+
 const yas = Number(prompt("enter your age"));
 const saglik = confirm("saglik raporun var mı");
 const sinav = +prompt("sınav puanınız")
 
 const sonuc =
-yas >= 18 && saglik === true && sinav >= 70 && "basarılı";
+yas >= 18 && saglik === true && sinav >= 70 ? "basarılı" :"basarısız"
 
 console.log(sonuc);
  
