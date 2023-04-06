@@ -11,13 +11,13 @@
 // });
 // console.log("hello world");
 
-// const gun = 10;
+const gun = 10;
 
-// if(gun <= 10){
-//      console.log("günaydın");
-// }else{
-//      console.log("tünaydın");
-// }
+if(gun <= 10){
+     console.log("günaydın");
+}else{
+     console.log("tünaydın");
+}
 
 // const sayi = 20202033
 
