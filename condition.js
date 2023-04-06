@@ -107,44 +107,44 @@
 
 // switch yapısı ===  e dikkat edrr tam eşit olmazsa olmaz daha uzun yapılar için kullanılır
 
-// const gunler = +prompt("gün 1-7");
+const gunler = +prompt("gün 1-7");
 
-// switch (gunler) {
-//   case 1:
-//   case 2:
-//   case 3:
-//   case 4:
-//   case 5:
-//     console.log("resmi gün");
-//     break;
-//   case 6:
-//   case 7:
-//     console.log("tatil günleri");
-//     break;
-
-//   default:
-//     break;
-// }
-
-
-let day =  +prompt("number")// bugünün haftanın kaçıncı günü olduğunu alır
-
-switch (day) {
+switch (gunler) {
   case 1:
-    console.log("Pazartesi");
-    break;
   case 2:
-    console.log("Salı");
-    break;
   case 3:
-    console.log("Çarşamba");
-    break;
   case 4:
-    console.log("Perşembe");
-    break;
   case 5:
-    console.log("Cuma");
+    console.log("resmi gün");
     break;
+  case 6:
+  case 7:
+    console.log("tatil günleri");
+    break;
+
   default:
-    console.log("Hafta sonu");
+    break;
 }
+
+
+// let day = new Date().getDay(); // bugünün haftanın kaçıncı günü olduğunu alır
+
+// switch (day) {
+//   case 1:
+//     console.log("Pazartesi");
+//     break;
+//   case 2:
+//     console.log("Salı");
+//     break;
+//   case 3:
+//     console.log("Çarşamba");
+//     break;
+//   case 4:
+//     console.log("Perşembe");
+//     break;
+//   case 5:
+//     console.log("Cuma");
+//     break;
+//   default:
+//     console.log("Hafta sonu");
+// }
