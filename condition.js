@@ -11,22 +11,22 @@
 // });
 // console.log("hello world");
 
-const gun = 10;
+// const gun = 10;
 
-if(gun <= 10){
-     console.log("günaydın");
-}else{
-     console.log("tünaydın");
-}
-
-// const sayi = 20202033
-
-// if (sayi % 2 ===0){
-//      console.log(`${sayi}:çift sayidir`);
+// if(gun <= 10){
+//      console.log("günaydın");
 // }else{
-//      console.log(`${sayi}:tek sayidir`);
-
+//      console.log("tünaydın");
 // }
+
+const sayi = 20202033
+
+if (sayi % 2 ===0){
+     console.log(`${sayi}:çift sayidir`);
+}else{
+     console.log(`${sayi}:tek sayidir`);
+
+}
 
 
 
