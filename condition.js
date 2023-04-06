@@ -84,12 +84,30 @@
 
 
 
-const yas = Number(prompt("enter your age"));
-const saglik = confirm("saglik raporun var mı");
-const sinav = +prompt("sınav puanınız")
+// const yas = Number(prompt("enter your age"));
+// const saglik = confirm("saglik raporun var mı");
+// const sinav = +prompt("sınav puanınız")
 
-const sonuc =
-yas >= 18 && saglik === true && sinav >= 70 ? "basarılı" :"basarısız"
+// const sonuc =
+// yas >= 18 && saglik === true && sinav >= 70 ? "basarılı" :"basarısız"
 
-console.log(sonuc);
+// console.log(sonuc);
+
+switch (key) {
+     case 1:
+          
+          break;
+     case 1:
+          
+          break;
+     case 1:
+          
+          break;
+     case 1:
+          
+          break;
+
+     default:
+          break;
+}
  
