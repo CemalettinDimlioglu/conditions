@@ -28,23 +28,49 @@
 
 // }
 
-const yas = Number(prompt("enter your age"));
-const saglik = confirm("saglik raporun var mı");
-const sinav = +prompt("sınav puanınız")
+// const yas = Number(prompt("enter your age"));
+// const saglik = confirm("saglik raporun var mı");
+// const sinav = +prompt("sınav puanınız")
 
-const sonuc = yas >= 18 && saglik === true && sinav >= 70;
+// const sonuc = yas >= 18 && saglik === true && sinav >= 70;
 
-// if (sonuc){
-//      console.log(`${sonuc}  basarılı`);
-// }else{
-//      console.log(`${sonuc}  basarısız`);
+// // if (sonuc){
+// //      console.log(`${sonuc}  basarılı`);
+// // }else{
+// //      console.log(`${sonuc}  basarısız`);
 
+// // }
+
+// // sonuc ? console.log(`${sonuc}  basarılı`) : console.log(`${sonuc}  basarısız`);
+
+
+
+// // sonuc && console.log(`${sonuc}  basarılı`);
+
+// sonuc || console.log(`${sonuc}  basarısız`);
+
+
+// const not = +prompt("bir not giriniz")
+
+// if(not > 100 || not < 0 ){
+//      console.log("lütfen geçerli bir sayı giriniz");
+// }else if(not > 90){
+//      console.log("AA");
+// }
+// }else if(not > 80){
+//      console.log("BA");
+// }
+// }else if(not > 70){
+//      console.log("CC");
+// }
+// }else if(not > 60){
+//      console.log("CD");
+// }
+// }else if(not > 50){
+//      console.log("DD");
+// }
+// }else if(not > 40){
+//      console.log("FF");
 // }
 
-// sonuc ? console.log(`${sonuc}  basarılı`) : console.log(`${sonuc}  basarısız`);
 
-
-
-// sonuc && console.log(`${sonuc}  basarılı`);
-
-sonuc || console.log(`${sonuc}  basarısız`);
