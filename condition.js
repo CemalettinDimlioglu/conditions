@@ -34,12 +34,14 @@ const sinav = +prompt("sınav puanınız")
 
 const sonuc = yas >= 18 && saglik === true && sinav >= 70;
 
-if (sonuc){
-     console.log(`${sonuc}  basarılı`);
-}else{
-     console.log(`${sonuc}  basarısız`);
+// if (sonuc){
+//      console.log(`${sonuc}  basarılı`);
+// }else{
+//      console.log(`${sonuc}  basarısız`);
 
-}
+// }
+
+sonuc ? console.log(`${sonuc}  basarılı`) : console.log(`${sonuc}  basarısız`);
 
 
 
