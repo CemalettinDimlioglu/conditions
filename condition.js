@@ -91,23 +91,21 @@
 // const sonuc =
 // yas >= 18 && saglik === true && sinav >= 70 ? "basarılı" :"basarısız"
 
-// console.log(sonuc);
+//  
 
-switch (key) {
-     case 1:
-          
+const number = 55
+switch (number) {
+     case 3:
+         console.log("case1"); 
           break;
-     case 1:
-          
+     case 5:
+         console.log("case2"); 
           break;
-     case 1:
-          
-          break;
-     case 1:
-          
+     case 7:
+         console.log("case3"); 
           break;
 
      default:
+          console.log("yanlıs numara");
           break;
 }
- 
