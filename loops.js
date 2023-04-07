@@ -18,5 +18,5 @@ for (let i = 1; i <= 10; ++i) {
 
 let a = 1
 
-console.log(++a);
+console.log(a++);
 console.log(a);
