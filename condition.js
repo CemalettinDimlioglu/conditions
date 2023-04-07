@@ -82,7 +82,7 @@
 // const yas = Number(prompt("enter your age"));
 // const saglik = confirm("saglik raporun var mı");
 // const sinav = +prompt("sınav puanınız")
-
+//? tek sart varsa isteniyorsa short circuit olur
 // const sonuc =
 // yas >= 18 && saglik === true && sinav >= 70 ? "basarılı" :"basarısız"
 
