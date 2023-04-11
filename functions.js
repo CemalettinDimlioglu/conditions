@@ -31,9 +31,17 @@
 //   return n % 2  ? "tek" : "cift";
 // };
 
-// console.log(num(4));
-let num = function (n) {
-  return n % 2  ? "tek" : "cift";
-};
+// // console.log(num(4));
+// let num = function (n) {
+//   return n % 2  ? "tek" : "cift";
+// };
 
-console.log(num(4));
+// console.log(num(4));
+
+//? Arrow functiom
+
+// const yas = (date) => new Date().getFullYear() - date;
+
+// console.log(yas(1990));
+
+const num = (n) => (n %2 ===0 ? "çift" : "tek");
