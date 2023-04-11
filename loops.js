@@ -38,8 +38,20 @@
 // // x2 is 4n; y2 is 4n
 //? 1-50 arası çift sayıları listeleme
 
-for(let i= 1 ; i<=50 ; i++){
-     if(i%2!==0){
-          console.log(i);
-     }
+// for(let i= 1 ; i<=50 ; i++){
+//      if(i%2!==0){
+//           console.log(i);
+//      }
+// }
+
+//? 
+
+const n = +prompt("number");
+let toplam = 0;
+
+for(let i=1; i<=n ; i++){
+     console.log(i);
+     toplam += i;
+     console.log(toplam);
 }
+console.log(toplam);
