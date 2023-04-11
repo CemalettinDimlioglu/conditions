@@ -45,3 +45,5 @@
 // console.log(yas(1990));
 
 const num = (n) => (n %2 ===0 ? "çift" : "tek");
+console.log(num(76                                                    ));
+
