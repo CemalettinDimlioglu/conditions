@@ -44,13 +44,28 @@
 
 // console.log(yas(1990));
 
-const num = (n) => (n % 2 === 0 ? "çift" : "tek");
-console.log(num(76));
+// const num = (n) => (n % 2 === 0 ? "çift" : "tek");
+// console.log(num(76));
 
-const isimler = ["ali", "veli", "deli"];
-const array = [1, 2, 3];
-const newArr = [];
-for (let i = 0; i < isimler.length; i++) {
-  newArr[i] = isimler[i] + " " + array[i];
-}
-console.log(newArr);
+// const isimler = ["ali", "veli", "deli"];
+// const array = [1, 2, 3];
+// const newArr = [];
+// for (let i = 0; i < isimler.length; i++) {
+//   newArr[i] = isimler[i] + " " + array[i];
+
+// // console.log(newArr);
+// const isimler = ["ali", "veli", "deli"];
+// const array = [1, 2, 3];
+// const newArr = [];
+// for (let i = 0; i < isimler.length; i++) {
+//   newArr[i] = isimler[i] + " " + array[i];
+// }
+// console.log(newArr);
+const isimler = ["ali", "veli", "deli" ,"fatma"];
+
+console.log(isimler.pop());
+
+console.log(isimler);
+// console.log(isimler.push("cemalettin"));
+// console.log(isimler);
+
