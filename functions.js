@@ -69,3 +69,5 @@ console.log(isimler);
 console.log(isimler.push("cemalettin"));
 console.log(isimler);
 
+console.log(isimler.shift());
+console.log(isimler);
