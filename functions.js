@@ -73,3 +73,6 @@ console.log(isimler.shift());
 console.log(isimler);
 console.log(isimler.unshift("necati"));
 console.log(isimler);
+
+console.log(isimler.splice(1,0, "abuzer"));
+console.log(isimler);
