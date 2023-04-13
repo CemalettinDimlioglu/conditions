@@ -78,3 +78,5 @@ console.log(isimler.splice(1,0, "abuzer"));
 console.log(isimler);
 console.log(isimler.splice(2,1, "aişe"));
 console.log(isimler);
+console.log(isimler.splice(0,5, "abidin"));
+console.log(isimler);
