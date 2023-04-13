@@ -76,3 +76,5 @@ console.log(isimler);
 
 console.log(isimler.splice(1,0, "abuzer"));
 console.log(isimler);
+console.log(isimler.splice(1,1, "abuzer"));
+console.log(isimler);
