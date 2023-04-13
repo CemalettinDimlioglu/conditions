@@ -86,3 +86,6 @@ console.log(isimler.reverse());
 console.log(isimler.sort());
 
 console.log(isimler.length);
+
+
+//? dizi değiştirme metotları
