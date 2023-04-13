@@ -71,3 +71,5 @@ console.log(isimler);
 
 console.log(isimler.shift());
 console.log(isimler);
+console.log(isimler.unshift("necati"));
+console.log(isimler);
