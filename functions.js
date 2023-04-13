@@ -66,6 +66,6 @@ const isimler = ["ali", "veli", "deli" ,"fatma"];
 console.log(isimler.pop());
 
 console.log(isimler);
-// console.log(isimler.push("cemalettin"));
-// console.log(isimler);
+console.log(isimler.push("cemalettin"));
+console.log(isimler);
 
