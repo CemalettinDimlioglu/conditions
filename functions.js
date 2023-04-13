@@ -84,3 +84,5 @@ console.log(isimler);
 console.log(isimler.reverse());
 
 console.log(isimler.sort());
+
+console.log(isimler.length);
